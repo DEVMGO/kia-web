@@ -136,7 +136,7 @@
 
 @media (max-width: 425px) {
   #cover .swiper-pagination-bullet-active::before {
-    left: -40%;
-    bottom: -43%;
+    left: -35%;
+    bottom: -38%;
   }
 }
