@@ -1,4 +1,5 @@
 import { Fragment } from 'react'
+import { NextSeo } from 'next-seo';
 
 // Components
 import SectionOne from '../components/home/sectionOne';
@@ -13,6 +14,7 @@ import AboutKiaWeb from '../components/home/aboutKiaWeb';
 export default function Home() {
   return (
     <Fragment>
+      <NextSeo title="کیاوب | KiaWeb" />
       <SectionOne />
       <SectionTwo />
       <SectionThree />
